@@ -1,9 +1,9 @@
 # Gstreamer Plugin
 
-Plugin Type - Low Pass Filter
-Cutoff Frequency - 10 Khz
-No of channels supported - {1, 2}
-Signal Type - Audio only
+Plugin Type - Low Pass Filter <br />
+Cutoff Frequency - 10 Khz <br />
+No of channels supported - {1, 2} <br />
+Signal Type - Audio only <br />
 
 # Filter Description
 
