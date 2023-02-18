@@ -15,4 +15,9 @@ ripples in filter.
 # Demo Application
 
 A demo application is provided which shows how to use the plugin, In demo application it accepts mp3 file and then it 
-plays after filtering it.
+plays after filtering it. <br />
+
+The pipeline is build as follows - <br />
+<br />
+**filesrc - mpegaudioparse - mpg123audiodec - audioresample - audioconvert - my_filter - audioconvert - audioresample - pulsesink** <br /><br />
+my_filter plugin is using 48 Khz sampling rate and F64LE format, that's why we're using audioresample and audioconvert before and after my_filter element in pipeline.
