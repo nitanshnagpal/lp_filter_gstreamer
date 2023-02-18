@@ -21,3 +21,8 @@ The pipeline is build as follows - <br />
 <br />
 **filesrc - mpegaudioparse - mpg123audiodec - audioresample - audioconvert - my_filter - audioconvert - audioresample - pulsesink** <br /><br />
 my_filter plugin is using 48 Khz sampling rate and F64LE format, that's why we're using audioresample and audioconvert before and after my_filter element in pipeline.
+
+# Building Plugin
+
+Refer to the following tutorial <br />
+https://gstreamer.freedesktop.org/documentation/plugin-development/basics/boiler.html?gi-language=c
