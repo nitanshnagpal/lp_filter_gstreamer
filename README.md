@@ -26,3 +26,8 @@ my_filter plugin is using 48 Khz sampling rate and F64LE format, that's why we'r
 
 Refer to the following tutorial <br />
 https://gstreamer.freedesktop.org/documentation/plugin-development/basics/boiler.html?gi-language=c
+
+# Demonstration
+
+Demonstration is available in video <br />
+https://youtu.be/bdNDUIF9yZw
